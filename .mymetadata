@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="dblog4j"
+  id="myeclipse.1388025129379"
+  context-root="/dblog4j"
+  j2ee-spec="6.0"
+  archive="dblog4j.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
