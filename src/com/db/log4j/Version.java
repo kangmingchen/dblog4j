@@ -9,6 +9,9 @@ package com.db.log4j;
  */
 public class Version {
 	/**
+	 * 2.0.7
+	 * 1、新增 返回 project name
+	 * 
 	 * 2.0.6
 	 * 1、天数如果设置为-1则不执行删除日志
 	 * 
@@ -18,5 +21,5 @@ public class Version {
 	 * 2.0.4 改进功能
 	 * <li>1、支持tomcat8</li>
 	 */
-	public static final String VERSION_INFO="DBLOG4J-2.0.6";
+	public static final String VERSION_INFO="DBLOG4J-2.0.7";
 }

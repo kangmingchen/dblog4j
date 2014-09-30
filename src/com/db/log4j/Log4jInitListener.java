@@ -29,6 +29,12 @@ public class Log4jInitListener implements ServletContextListener, HttpSessionLis
 	 * 日志文件根目录
 	 */
 	public static String FILE_FOLDER = "";
+	
+	/**
+	 * 项目名称
+	 */
+	public static String PROJECT_NAME="";
+	
 	/**
 	 * 日志保留天数，默认10天
 	 */
@@ -104,8 +110,8 @@ public class Log4jInitListener implements ServletContextListener, HttpSessionLis
 			Properties ps = new Properties();
 			ps.load(fs);
 			fs.close();
-			String myProject = projectName;
-			ps.setProperty("log4j.MyProjectName", myProject);
+			PROJECT_NAME = projectName;
+			ps.setProperty("log4j.MyProjectName", PROJECT_NAME);
 
 			String appenderFile = "log4j.appender.%1$s.File";
 
